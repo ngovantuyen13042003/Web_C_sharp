@@ -86,17 +86,11 @@
                 <div class="col-lg-3 col-sm-6">
                     <h3 class="useful_text">Menu</h3>
                     <div class="footer_menu">
-                        @*
-                        <ul>
-                            <li><a href="~/Home">Home</a></li>
-                            <li><a href="~/About/about">About Us</a></li>
-                            <li><a href="~/Gallery/gallery">Gallery</a></li>
-                            <li><a href="~/Services/services">Services</a></li>
-                            <li><a href="~/Contact/contact">Contact Us</a></li>
-                        </ul>
-                        *@
+                       
 
                         @*Phần sẽ thay đổi khi view khác nhau*@
+
+                        @RenderSection("menu", false)
 
                         @*Phần sẽ thay đổi khi view khác nhau*@
 
@@ -104,7 +98,7 @@
 
 
 
-
+                         
 
                     </div>
                 </div>
